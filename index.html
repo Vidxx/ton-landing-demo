@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TON Landing Demo</title>
+<style>
+  body { margin:0; font-family:'Inter',sans-serif; background:#0a0a0a; color:#e0e0e0; }
+  a { color:#00ffc8; text-decoration:none; }
+  .container { max-width:1000px; margin:0 auto; padding:50px 20px; position:relative;}
+  header { display:flex; justify-content:space-between; align-items:center; }
+  header h1 { font-weight:700; font-size:2rem; letter-spacing:2px; }
+  nav a { margin-left:20px; font-weight:500; cursor:pointer; }
+  .hero { text-align:center; margin:100px 0; }
+  .hero h2 { font-size:3rem; color:#00ffc8; text-shadow:0 0 10px #00ffc8,0 0 20px #00ffc8; }
+  .hero p { font-size:1.2rem; margin-bottom:40px; }
+  .hero button { padding:15px 40px; font-size:1rem; font-weight:600; background:none; border:2px solid #00ffc8; color:#00ffc8; cursor:pointer; box-shadow:0 0 10px #00ffc8; }
+  .hero button:hover { background:#00ffc8; color:#0a0a0a; box-shadow:0 0 20px #00ffc8; }
+  section { margin-bottom:80px; }
+  section h3 { font-size:2rem; margin-bottom:20px; color:#00ffc8; text-shadow:0 0 8px #00ffc8; }
+  section p { font-size:1rem; line-height:1.6; }
+  footer { text-align:center; padding:50px 0; font-size:0.9rem; color:#555; }
+  /* Watermark */
+  .watermark {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    font-size:0.8rem;
+    color:rgba(255,255,255,0.2);
+    pointer-events:none;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>DAO Project</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Own the Future with TON</h2>
+    <p>Minimalist NFT & DAO landing page. Demo version only.</p>
+    <button>Pay with TON</button>
+  </section>
+
+  <section id="about">
+    <h3>About</h3>
+    <p>This is a demo. Full version available after purchase.</p>
+  </section>
+
+  <section id="features">
+    <h3>Features</h3>
+    <p>Demo version. Glow effect, EN/RU toggle, full sections in paid version.</p>
+  </section>
+
+  <section id="roadmap">
+    <h3>Roadmap</h3>
+    <p>Demo only. Full roadmap in complete product.</p>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>Email: demo@tonproject.io</p>
+  </section>
+
+  <footer>
+    &copy; 2026 DAO Project. Demo only.
+  </footer>
+
+  <div class="watermark">DEMO - Full Version Paid</div>
+</div>
+</body>
+</html>
